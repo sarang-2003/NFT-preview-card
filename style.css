@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 330px;
+    height: 520px;
+    background-color: hsl(216, 50%, 16%);
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+    padding: 20px;
+}
+.image img{
+    width: 100%;
+      max-height: 270px;
+      border-radius: 8px;
+      padding: 3px ;
+}
+.image :hover{
+    background-color: none;
+    background-color: hsl(178, 100%, 50%,60%);
+}
+.equilibrium {
+    font-family: 'Outfit', sans-serif;
+    Font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    padding:6px;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+}
+
+.info {
+    font-family: 'Outfit', sans-serif;
+    Font-size: 16px;
+    font-weight: 400;
+    padding: 3px;
+    color: hsl(215, 32%, 27%);
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight:bold
+
+}
+
+.eth{
+    display: flex;
+    float: left;
+    font-family: 'Outfit', sans-serif;
+    Font-size: 15px;
+    font-weight: 600;
+    padding-top: 13px;
+    color: hsl(178, 100%, 50%);
+    letter-spacing: 1px;
+
+}
+.days-left{
+    display: flex;
+    float: right;
+    font-family: 'Outfit', sans-serif;
+    Font-size: 15px;
+    font-weight: 600;
+    padding-top: 13px;
+    color:  hsl(215, 32%, 27%);
+    letter-spacing: 1px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 10px;   
+
+}
+.avatar>img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow:inset;
+  }
+  span{
+    color: white;
+  }
+.created {
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+    bottom: 10px;
+    letter-spacing: 1px;
+}
+
+
